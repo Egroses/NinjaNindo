@@ -13,7 +13,7 @@
 ![throw picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/ThrowShuriken.png)
 
 **Enemies Died**\
-![death picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/DeadEnemy.png)
+![death picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/DeadEnemyies.png)
 
 **Finish**\
 ![finish picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Finish.png)
