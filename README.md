@@ -1,5 +1,31 @@
 # NinjaNindo
 
+## About Game
+This is a runner game.
+
+
+   Basically;
+
+  - User is trying to reachs to finish.
+  
+  - User has to kill enemies to reach the finish.
+
+  - Game is playing with hold and release mechanics.
+  
+  - If user holds fing pressed, it increases user's throw range.
+  
+  - If user release the finger, character throws shuriken.
+  
+  - If user holds again shuriken come back, but if user don't hold shuriken wait a little time then it come back.
+  
+  - When shuriken hit enemies, enemies loses their color and die immediately.
+  
+  - Shuriken has spin mechanic owing to use by quadratic bezier curves formula.
+
+   
+  Dotween, Quadratic Bezier Curves Formula and Visual Effects are used.
+
+ You can see images from game.
 
 ## Images From the Game
 
