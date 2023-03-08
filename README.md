@@ -23,7 +23,7 @@ This is a runner game.
   - Shuriken has spin mechanic owing to use by quadratic bezier curves formula.
 
    
-  Dotween, Quadratic Bezier Curves Formula and Visual Effects are used.
+  Dotween, Quadratic Bezier Curves Formula, Visual Effects and Scriptable Objects are used.
 
  You can see images from game.
 
