@@ -1,51 +1,36 @@
 # NinjaNindo
 
-## About Game
-This is a runner game.
+Shuriken fırlatarak yoldaki düşmanları temizleyip bitiş çizgisine ulaşılan bir mobil koşu oyunu.
 
+![Oyun](Images/Game.png)
 
-   Basically;
+## Neden?
 
-  - User is trying to reachs to finish.
-  
-  - User has to kill enemies to reach the finish.
+Basılı tut ve bırak kontrolüyle fırlatılan, sonra geri dönen bir shuriken mekaniğini mobil koşu oyununda denemek için yapıldı. Tek parmakla hem nişan alınıyor hem de silah geri çağrılıyor.
 
-  - Game is playing with hold and release mechanics.
-  
-  - If user holds fing pressed, it increases user's throw range.
-  
-  - If user release the finger, character throws shuriken.
-  
-  - If user holds again shuriken come back, but if user don't hold shuriken wait a little time then it come back.
-  
-  - When shuriken hit enemies, enemies loses their color and die immediately.
-  
-  - Shuriken has spin mechanic owing to use by quadratic bezier curves formula.
+## Oynanış
 
-   
-  Dotween, Quadratic Bezier Curves Formula, Visual Effects and Scriptable Objects are used.
+- Karakter bitiş çizgisine doğru koşuyor; yolu açmak için düşmanları öldürmek gerekiyor.
+- Parmak basılı tutuldukça fırlatma menzili uzuyor, bırakılınca shuriken fırlatılıyor.
+- Tekrar basılı tutulursa shuriken geri çağrılıyor. Basılmazsa kısa bir süre bekleyip kendiliğinden dönüyor.
+- Shuriken'in değdiği düşman rengini kaybedip anında ölüyor.
+- Shuriken'in yolu karesel Bézier eğrisiyle hesaplanıyor; kavisli bir yörüngede dönerek gidip geliyor.
 
- You can see images from game.
+## Ekranlar
 
-## Images From the Game
+| Başlangıç | Shuriken fırlatma |
+|---|---|
+| ![Başlangıç](Images/Start.png) | ![Shuriken fırlatma](Images/ThrowShuriken.png) |
+| **Ölen düşmanlar** | **Bitiş çizgisi** |
+| ![Ölen düşmanlar](Images/DeadEnemies.png) | ![Bitiş](Images/Finish.png) |
+| **Kazanma** | **Kaybetme** |
+| ![Kazanma](Images/Win.png) | ![Kaybetme](Images/Lose.png) |
 
-**Start Game**\
-![start picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Start.png)
+## Teknik
 
-**In Game**\
-![in game picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Game.png)
-
-**Throw Shuriken**\
-![throw picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/ThrowShuriken.png)
-
-**Enemies Died**\
-![death picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/DeadEnemies.png)
-
-**Finish**\
-![finish picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Finish.png)
-
-**Win**\
-![win picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Win.png)
-
-**Lose**\
-![lose picture](https://github.com/Egroses/NinjaNindo/blob/main/Images/Lose.png)
+| | |
+|---|---|
+| **Motor** | Unity 2022.1.7f1 |
+| **Kullanılanlar** | DOTween, karesel Bézier eğrisi, görsel efektler, ScriptableObject ile düşman tipleri |
+| **Kod** | `Assets/Codes` (karakter, düşman, yönetici scriptleri) |
+| **GitHub'a yükleme** | Şubat 2023 |
